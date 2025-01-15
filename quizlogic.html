@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .main_container {
+            background-image: linear-gradient(140deg, rgb(247, 222, 59), rgb(23, 35, 149));
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: scroll;
+        }
+
+        .main_logic {
+            width: 500px;
+            height: 800px;
+            border: 1px solid gray;
+        }
+
+        #first {
+            width: 100%;
+            background-color: white;
+            padding: 30px;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        #first_que {
+            margin: 40px;
+        }
+
+
+        #opt1 {
+            text-align: center;
+            font-size: 19px;
+            color: black;
+            text-transform: capitalize;
+            padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.684);
+        }
+
+        #opt2 {
+            text-align: center;
+            font-size: 19px;
+            color: black;
+            text-transform: capitalize;
+            padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.684);
+        }
+
+        #opt3 {
+            text-align: center;
+            font-size: 19px;
+            color: black;
+            text-transform: capitalize;
+            padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.684);
+        }
+
+        #opt4 {
+            text-align: center;
+            font-size: 19px;
+            color: black;
+            text-transform: capitalize;
+            padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.684);
+        }
+
+
+        #check {
+            width: 30px;
+            margin-bottom: 5px;
+            margin-right: 10px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        #back_btn {
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            background-color: black;
+            color: white;
+            transition: 0.3s linear;
+        }
+
+        #back_btn:hover {
+            background-color: gray;
+        }
+
+
+        #submit_btn {
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid gray;
+            background-color: black;
+            color: white;
+            transition: 0.3s linear;
+        }
+
+        #submit_btn:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="main_logic">
+            <div class="first_q1">
+                <p id="first">who is creator of c language?</p>
+                <ul id="first_que">
+                    <li id="opt">
+                        <label for="check">
+                            <input type="radio" id="check" name="question1" value="1">
+                        </label>denny rithies
+
+                    </li>
+                    <li id="opt">
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question1" value="0">linus torvalds</label>
+                    </li>
+                    <li id="opt">
+
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question1" value="0">joerge hadse</label>
+                    </li>
+                    <li id="opt">
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question1" value="0">scam payers</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="second_q2">
+                <p id="first">what is main application of c language</p>
+                <ul id="first_que">
+                    <li id="opt">
+                        <label for="check">
+                            <input type="radio" id="check" name="question2" value="0">
+                        </label>web developement
+
+                    </li>
+                    <li id="opt">
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question2" value="0">machine learning</label>
+                    </li>
+                    <li id="opt">
+
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question2" value="1">os/kernal developement</label>
+                    </li>
+                    <li id="opt">
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question2" value="0">game developement</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="third_q2">
+                <p id="first">What synchronization mechanism ensures that a thread does not enter a critical section if
+                    another thread is already in it?</p>
+                    <ul id="first_que">
+                        <li id="opt">
+                            <label for="check">
+                                <input type="radio" id="check" name="question3" value="0">
+                            </label>Mutex
+    
+                        </li>
+                        <li id="opt">
+                            <label for="check" id="lable">
+                                <input type="radio" id="check" name="question3" value="0">Semaphore</label>
+                        </li>
+                        <li id="opt">
+    
+                            <label for="check" id="lable">
+                                <input type="radio" id="check" name="question3" value="0">Spinlock</label>
+                        </li>
+                        <li id="opt">
+                            <label for="check" id="lable">
+                                <input type="radio" id="check" name="question3" value="1">D. All of the above
+
+                            </label>
+                        </li>
+                    </ul>
+            </div>
+            <div class="forth_q4">
+                 <p id="first">Which of the following languages supports both functional and object-oriented paradigms?</p>
+                 <ul id="first_que">
+                    <li id="opt">
+                        <label for="check">
+                            <input type="radio" id="check" name="question4" value="0">
+                        </label>Python
+
+                    </li>
+                    <li id="opt">
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question4" value="0">Haskell </label>
+                    </li>
+                    <li id="opt">
+
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question4" value="0">JavaScript</label>
+                    </li>
+                    <li id="opt">
+                        <label for="check" id="lable">
+                            <input type="radio" id="check" name="question4" value="1"> Both A and C
+
+                        </label>
+                    </li>
+                </ul>
+            </div>
+            <div class="buttons">
+                <div class="back">
+                    <button id="back_btn">next question</button>
+                </div>
+                <div class="submit">
+                    <button id="submit_btn">submit</button>
+                </div>
+            </div>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="./quiz.js "></script>
+</body>
+
+</html>
