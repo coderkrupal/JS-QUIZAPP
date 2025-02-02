@@ -22,7 +22,7 @@ This is a dynamic and interactive quiz application built using HTML, CSS, and Ja
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Doshi-Krupal/quiz-app.git
+   git clone https://github.com/coderkrupal/JS-QUIZAPP
    ```
 2. Navigate to the project directory:
    ```bash
